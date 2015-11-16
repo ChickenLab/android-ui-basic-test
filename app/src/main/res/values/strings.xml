@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">ZAMVA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="facebook_app_id">1482861718707504</string>
+	<string name="kakao_app_key">7d8428870a74ddce22538c107b52979e</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="splash_title">Zamva</string>
+    <string name="title_activity_link_list">LinkListActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_link_save">LinkSaveActivity</string>
+    <string name="title_activity_link_detail">LinkDetailActivity</string>
+    <string name="title_activity_config">ConfigActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+
+    <string name="button_go_register">회원가입하기</string>
+    <string name="button_forgot_password">암호를 잊으셨습니까?</string>
+
+    <string name="notice_invalid_email">잘못된 이메일입니다</string>
+    <string name="notice_input_password">패스워드를 입력하세요</string>
+    <string name="notice_input_password_min">패스워드는 6자이상 입력하세요</string>
+    <string name="notice_input_password_confirm">패스워드를 다시 입력하세요</string>
+    <string name="notice_diff_password">패스워드가 동일하지 않습니다</string>
+    <string name="notice_fail_to_register">회원가입 실패</string>
+    <string name="notice_fail_to_login">로그인 실패</string>
+    <string name="notice_fail_to_save_link">링크박스에 저장 실패</string>
+    <string name="notice_success_to_save_link">링크박스에 저장 성공</string>
+    <string name="notice_need_login">로그인이 필요합니다</string>
+    <string name="notice_fail_to_get_link_list">리스트 가져오기가 실패했습니다</string>
+    <string name="notice_fail_to_get_link">링크 정보 가져오기가 실패했습니다</string>
+    <string name="notice_back_button_press">뒤로 버튼을 한번 더 누르시면 종료됩니다</string>
+    <string name="notice_input_tag">태그를 입력하세요</string>
+    <string name="notice_confirm_delete_link">저장된 링크를 삭제하시겠습니까?</string>
+    <string name="notice_success_to_delete_link">저장된 링크를 삭제했습니다</string>
+    <string name="notice_fail_to_delete_link">저장된 링크 삭제가 실패했습니다</string>
+    <string name="notice_success_to_save_tag">태그를 저장했습니다</string>
+    <string name="notice_fail_to_save_tag">태그 저장이 실패했습니다</string>
+    <string name="notice_confirm_logout">로그아웃 하시겠습니까?</string>
+    <string name="notice_success_change_password">비밀번호 변경</string>
+    <string name="notice_fail_change_password">비밀번호 변경이 실패했습니다</string>
+    <string name="notice_fail_to_get_info">정보 조회가 실패했습니다.</string>
+
+    <string name="drawer_view_all">전체보기</string>
+    <string name="drawer_view_favorite">즐겨찾기 보기</string>
+    <string name="drawer_config">설정</string>
+    <string name="drawer_help">도움말</string>
+
+    <string name="label_current_password">현재 비밀번호</string>
+    <string name="label_new_password">새로운 비밀번호</string>
+    <string name="label_confirm_password">새로운 비밀번호 확인</string>
+
+    <string name="action_ok">확인</string>
+    <string name="action_cancel">취소</string>
+    <string name="action_logout">로그아웃</string>
+    <string name="action_change_password">비밀번호 변경</string>
+    <string name="title_activity_email_login">EmailLoginActivity</string>
+
+    <string name="notice_progress">처리중입니다</string>
+    <string name="notice_fail_to_process_video">영상처리가 실패했습니다</string>
+    <string name="notice_storage_disabled">저장공간을 사용할 수 없는 상태입니다</string>
+
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_video_preview">VideoPreviewActivity</string>
+    <string name="title_activity_main">메인</string>
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_movie_spread">MovieSpreadActivity</string>
+    <string name="title_activity_channel">ChannelActivity</string>
+    <string name="title_activity_video_preview_multiple_player">VideoPreviewMultiplePlayerActivity</string>
+    <string name="title_activity_video_update">VideoUploadActivity</string>
+    <string name="notice_wrong_access">잘못된 접근입니다.</string>
+    <string name="notice_loack_content">내용을 입력해주세요.</string>
+    <string name="notice_fail_to_insert_clip">등록을 실패했습니다.</string>
+    <string name="title_video_player">VideoPlayerActivity</string>
+    <string name="description">Media Controls</string>
+</resources>

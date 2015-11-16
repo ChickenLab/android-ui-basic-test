@@ -1,0 +1,71 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+apply plugin: 'com.google.gms.google-services'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+    mavenCentral()
+    jcenter()
+    maven { url 'http://devrepo.kakao.com:8088/nexus/content/groups/public/' }
+    maven { url "https://jitpack.io" }
+    maven { url 'https://github.com/rockerhieu/mvn-repo/raw/master/' }
+}
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "21.0.1"
+    defaultConfig {
+        applicationId "com.zamva.zamva"
+        minSdkVersion 16
+        targetSdkVersion 21
+        versionCode 2
+        versionName "1.0.2"
+    }
+    buildTypes {
+        debug {
+            buildConfigField "String", "ApiServerAddress", "\"http://192.168.0.7:9000\""
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            buildConfigField "String", "ApiServerAddress", "\"http://api.bnnb.kr:9090\""
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:22.+'
+    compile 'com.android.support:support-v4:22.+'
+    compile 'com.mcxiaoke.volley:library:1.0.18'
+    compile 'com.squareup.okhttp:okhttp:2.4.0'
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.4.0'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.afollestad:material-dialogs:0.7.8.1'
+    compile('org.apmem.tools:layouts:1.9@aar') {
+        transitive = true;
+    }
+    compile 'com.android.support:design:22.2.0'
+    compile 'com.google.android.exoplayer:exoplayer:r1.5.0'
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'com.github.bumptech.glide:okhttp-integration:1.1.+'
+    compile 'com.android.support:recyclerview-v7:+'
+}

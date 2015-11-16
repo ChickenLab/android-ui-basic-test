@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="primary">#009688</color>
+    <color name="primaryDark">#00796b</color>
+    <color name="accent">#eeff41</color>
+    <color name="accentLight">#F4FF81</color>
+    <color name="opacity_black_50">#80000000</color>
+    <color name="element_black">#393939</color>
+    <color name="element_yellow">#fcf914</color>
+    <color name="element_black_press">#191919</color>
+    <color name="element_yellow_press">#616001</color>
+    <color name="channel_nickname">#079896</color>
+    <color name="not_selected_black">#b3b2b2</color>
+    <color name="background_color">#fafafa</color>
+    <color name="line_white">#f1f1f1</color>
+    <color name="no_toggle_black">#b3b2b2</color>
+    <color name="line_gray">#e4e4e4</color>
+    <color name="hash_tag">#079896</color>
+    <color name="opacity_black_70">#b3000000</color>
+</resources>
